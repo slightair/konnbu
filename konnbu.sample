@@ -1,0 +1,8 @@
+#!/bin/bash
+
+export HUBOT_IRC_NICK="konnbu"
+export HUBOT_IRC_ROOMS="#hoge,#fuga"
+export HUBOT_IRC_SERVER=""
+export HUBOT_IRC_SEND_NOTICE_MODE="true"
+
+./bin/hubot -a irc
